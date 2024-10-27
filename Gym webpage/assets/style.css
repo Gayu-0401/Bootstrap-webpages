@@ -1,0 +1,97 @@
+.main{
+    background-color: rgb(204, 198, 198);
+    
+}
+.container{
+    font-family:sans-serif;
+}
+.section1{
+    height: 97vh;
+    background-image: linear-gradient(gray,darkgray),url(./images/workout-7.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+.box1{
+    background: linear-gradient(#fcc203,#fcba03,#fcc203);
+}
+.box1 h3{
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.box2{
+    margin-top: 20vh;
+}
+.box2 p{
+    color: rgb(173, 173, 173);
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+p{
+    font-size: 13px;
+    font-weight: 100;
+}
+button{
+    background: #faa018;
+    border: none;
+    color: gray;
+}
+.section2{
+    height: 100vh;
+    background: linear-gradient(#fcc203,#fcba03,#fcc203);
+}
+.header{
+    height: 8vh;
+    color: rgb(138, 135, 135);
+}
+.header h3{
+    line-height: 50px;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    height: 67.6vh;
+}
+.item1 h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.foot{
+    height: 10vh;
+}
+.section3{
+    height: 100vh;
+}
+.img{
+    height: 65vh;
+    background-image: url(./images/workout-3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content2{
+    height: 25vh;
+}
+.item2 p{
+    letter-spacing: 6px;
+    font-weight: 100;
+    color:#f5b14c;
+    font-size: 10px;
+}
+.footer{
+    height: 10vh;
+    background-color:#fcba03;
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: 6px;
+}
+.footer p{
+    font-weight: 600;
+}
