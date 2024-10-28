@@ -1,0 +1,167 @@
+.main {
+  height: 160vh;
+  margin: 10px 20px;
+  box-shadow: 2px 2px 20px 0px black;
+}
+
+.contain1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-right: 3px dashed gray;
+}
+.contain1 h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+.contain1 .para1 {
+  text-align: center;
+  padding: 0px 30px;
+  font-size: 12px;
+}
+.rippon {
+  
+  background-color: rgb(52, 172, 219);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0px 20px 10px 20px;
+  font-weight: 600;
+  position: relative;
+  /* border: solid black; */
+}
+
+.rippon::before{
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+  left: 0px;
+}
+.rippon::after{
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid white;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid transparent;
+  right: 0px;
+}
+.contain1 ul {
+  display: flex;
+}
+.contain1 ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+.contain1 ul li h3 {
+  padding-top: 5px;
+  color: rgb(46, 46, 75);
+}
+.contain1 ul li span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.contain1 ul li p {
+  padding-top: 5px;
+  font-size: 15px;
+  color: rgb(52, 172, 219);
+}
+.contain1 .icon1 {
+  text-align: center;
+}
+.contain1 .icon1 img {
+  padding: 0px 7px 10px;
+}
+.contain1 .list2 .a {
+  width: 200px;
+  text-align: end;
+}
+.contain1 .list2 .a p {
+  font-size: 12px;
+}
+.contain1 .list2 img {
+  height: 60px;
+  padding-left: 15px;
+}
+.contain1 .list2 span {
+  font-size: 20px;
+}
+.contain1 .item {
+  position: relative;
+  bottom: 40px;
+  padding-left: 270px;
+  
+}
+.contain1 .item{
+  margin-top: 10px;
+}
+.contain1 .item div{
+  margin-top: 5px;
+}
+.contain1 .item h3 {
+  font-weight: 900;
+  font-size: 13px;
+  color: rgb(255, 217, 0);
+}
+.contain1 .item span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contain2 {
+  margin: 20px;
+}
+.contain2 .content .img {
+  margin: 0px 50px 0px 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 70px;
+  width: 100px;
+  padding: 10px;
+}
+.contain2 .content h2 {
+  font-size: 24px;
+  color: rgb(36, 36, 70);
+}
+.contain2 .content .p1 {
+  font-weight: 600;
+  line-height: 5px;
+  color: rgb(255, 217, 0);
+}
+.contain2 .content .p1 span {
+  font-size: 25px;
+  padding-left: 10px;
+}
+.contain2 .content .p2 {
+  padding-left: 10px;
+  font-size: 13px;
+  color: rgb(52, 172, 219);
+}
+.contain2 h2 {
+  padding: 10px 0px 0px 10px;
+  font-size: 23px;
+  color: rgb(47, 47, 104);
+}
+.contain2 .box {
+  line-height: 2px;
+}
+.contain2 .box h3 {
+  font-weight: 700;
+  color: rgb(52, 172, 219);
+  font-size: 17px;
+  padding: 5px 20px 0px 40px;
+}
+.contain2 .box p {
+  padding: 15px 50px 0px 0px;
+  font-size: 27px;
+  font-weight: 700;
+  color: rgb(255, 217, 0);
+}
+
+/*# sourceMappingURL=style.css.map */
